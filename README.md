@@ -1,8 +1,8 @@
-# Mix Spin Wheel 🎡
+# Mix Spin Wheel
 
 An interactive, HTML5-style animal selection betting wheel game for Android, built entirely with modern Android development standards. This project demonstrates a strong understanding of **Clean Architecture principles**, **Reactive Programming**, and **Declarative UI**.
 
-## 🚀 Tech Stack & Libraries
+## Tech Stack & Libraries
 
 - **Language:** [Kotlin](https://kotlinlang.org/) (100%)
 - **UI Framework:** [Jetpack Compose](https://developer.android.com/jetpack/compose) (Material 3) for fully declarative and reactive UI components.
@@ -13,7 +13,7 @@ An interactive, HTML5-style animal selection betting wheel game for Android, bui
 - **Networking/API (Configured):** Retrofit2, OkHttp3 (with Logging Interceptor), and Moshi for JSON parsing.
 - **Testing Setup:** Configured with JUnit4, Espresso, Robolectric, and Roborazzi (Snapshot testing).
 
-## 🏗 Architecture & Design Patterns
+## Architecture & Design Patterns
 
 The project structure is strictly modularized by features and layers, ensuring maintainability, testability, and scalability:
 
@@ -23,7 +23,7 @@ The project structure is strictly modularized by features and layers, ensuring m
   * `GameRepository.kt` acts as the single source of truth for the application's data.
   * `GameDatabase.kt` handles persistent storage (simulated wallet, daily logins, referral points) via Room.
 
-## 💡 Key Technical Features
+## Key Technical Features
 
 1. **Custom Canvas Animations**: The spinning wheel and smooth pointer deceleration are implemented purely mathematically using Compose's `animateFloatAsState` and Coroutines, showcasing complex UI rendering performance.
 2. **State-Driven UI**: Entire application state (Balance, Spin Result, Admin Settings) flows strictly downwards from the ViewModel, ensuring zero UI inconsistencies.
