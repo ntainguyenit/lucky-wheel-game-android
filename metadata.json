@@ -1,0 +1,6 @@
+{
+  "name": "Mix Spin Wheel",
+  "description": "An exciting HTML5-style animal selection betting wheel game with smooth animations, simulated wallet, recharge triggers, daily logins, referral tasks, and an admin win ratio/RTP panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
