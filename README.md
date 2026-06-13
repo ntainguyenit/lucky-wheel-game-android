@@ -29,7 +29,7 @@ The project structure is strictly modularized by features and layers, ensuring m
 2. **State-Driven UI**: Entire application state (Balance, Spin Result, Admin Settings) flows strictly downwards from the ViewModel, ensuring zero UI inconsistencies.
 3. **Admin RTP Controller**: Features a dynamic configuration panel allowing real-time adjustment of the Win Ratio (RTP - Return to Player), demonstrating deep data-binding concepts.
 
-## 🛠 Prerequisites & Installation
+## Prerequisites & Installation
 
 1. Clone the repository:
    ```bash
